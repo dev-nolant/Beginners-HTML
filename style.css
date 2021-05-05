@@ -1,0 +1,65 @@
+/*This is auto-generated using Dev-NolanT's AutoGeneration program.*/
+* {
+    /*Enter global attributes*/
+    text-align: center;
+}
+
+html { 
+    background: url(https://i.pinimg.com/originals/c9/4c/e7/c94ce78d80c07480d25f7acafddc15d8.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1 {
+    color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/*EXAMPLE CSS ANIMATION*/
+.animated {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes Down {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+}
+80% {
+    -webkit-transform: translateY(-10px);
+}
+100% {
+    -webkit-transform: translateY(0);
+}
+}
+@keyframes Down {
+0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+}
+60% {
+    opacity: 1;
+    transform: translateY(30px);
+}
+80% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+.Down {
+-webkit-animation-name: Down;
+animation-name: Down;
+}
